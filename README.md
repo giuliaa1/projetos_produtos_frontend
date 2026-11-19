@@ -1,7 +1,8 @@
 # API de Produtos — Node.js + SQL Server Express
 
+## Giulia Lavinia Barbosa
 ## Nota importante sobre a tecnologia
-Entity Framework é um ORM do ecossistema .NET e não é utilizado diretamente em Node.js. Para manter a API em Node.js e persistir no SQL Server, este projeto usa Sequelize com o driver `mssql`. Se os vídeos da Semana 15 exigirem literalmente Entity Framework, confirme com o professor se a linguagem correta seria C#/.NET.
+Entity Framework é um ORM do ecossistema .NET e não é utilizado diretamente em Node.js. Para manter a API em Node.js e persistir no SQL Server, este projeto usa Sequelize com o driver `mssql`. 
 
 ## Requisitos
 - Node.js LTS
@@ -45,7 +46,7 @@ A ordem das rotas está definida para que `codigo` e `categoria` não sejam inte
 ```json
 {
   "nome": "Caderno universitário",
-  "codigo": "CODIGO_PESSOA_REAL",
+  "codigo": "1473144",
   "preco": 24.9,
   "descricao": "Caderno de 10 matérias, capa azul",
   "quantidadeEstoque": 35,
