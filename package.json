@@ -1,0 +1,14 @@
+{
+  "name": "api-produtos-sqlserver",
+  "version": "1.0.0",
+  "description": "API CRUD de produtos com Node.js, Express, Sequelize e SQL Server Express",
+  "main": "src/server.js",
+  "scripts": { "start": "node src/server.js", "seed": "node src/seed.js", "dev": "nodemon src/server.js" },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mssql": "^11.0.1",
+    "sequelize": "^6.37.5"
+  },
+  "devDependencies": { "nodemon": "^3.1.9" }
+}
